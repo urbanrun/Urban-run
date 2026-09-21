@@ -1,23 +1,300 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Urban Run — Running / Sneakers / Sportswear</title>
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#050607;color:#fff;font-family:Arial,sans-serif}a{text-decoration:none;color:inherit}
+.header{position:sticky;top:0;z-index:20;background:#050607;border-bottom:1px solid #222}.nav{height:68px;max-width:1200px;margin:auto;padding:0 20px;display:flex;align-items:center;gap:25px}.brand{font-weight:900;font-style:italic;font-size:25px}.brand span{font-weight:500}.links{display:flex;gap:25px;margin-left:auto}.links a{color:#ddd}.wa{background:#fff;color:#000;padding:11px 16px;border-radius:22px;font-weight:800}.menu{display:none;background:none;border:0;color:#fff;font-size:25px}.mobile-links{display:none;padding:10px 20px 15px}
+.section{max-width:1200px;margin:auto;padding:55px 20px}.eyebrow{font-size:12px;letter-spacing:3px;color:#999}.section h2{font-size:38px;margin:7px 0}.section-note{color:#999;margin-bottom:25px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#0d0f10;border:1px solid #242424;border-radius:18px;overflow:hidden}.photo{background:#111;aspect-ratio:1/1;display:flex;align-items:center;justify-content:center}.photo img{width:100%;height:100%;object-fit:contain}.info{padding:18px}.name{font-size:20px;font-weight:900}.price{font-size:18px;font-weight:900;margin-top:8px}.sizes{color:#aaa;font-size:13px;margin:9px 0 14px}.choices{display:flex;gap:7px;flex-wrap:wrap}.choice{border:1px solid #444;background:#151718;color:#eee;border-radius:20px;padding:8px 11px}.choice.active{background:#fff;color:#000}.buy{display:block;text-align:center;background:#fff;color:#000;border-radius:11px;padding:12px;font-weight:900;margin-top:14px}.product-section{border-top:1px solid #191919}.banner{width:100%;display:block;margin-top:10px}.features{max-width:1200px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid #222;border-bottom:1px solid #222}.feature{padding:25px;text-align:center;border-right:1px solid #222}.feature:last-child{border:0}.feature b{display:block;margin:6px}.feature span{color:#999;font-size:13px}.about{background:#0a0c0d;text-align:center}.about-inner{max-width:900px}.about p{color:#aaa;line-height:1.7}.footer{padding:45px 20px;background:#030404}.footer-inner{max-width:1200px;margin:auto;display:grid;grid-template-columns:2fr 1fr 1fr;gap:30px}.footer p,.footer a{color:#999;line-height:1.8}.bottom{text-align:center;border-top:1px solid #222;margin-top:30px;padding-top:20px;color:#666;font-size:12px}
+@media(max-width:800px){.links{display:none}.menu{display:block;margin-left:auto}.nav{height:62px}.brand{font-size:21px}.grid{grid-template-columns:repeat(2,1fr)}.features{grid-template-columns:1fr}.feature{border-right:0;border-bottom:1px solid #222}.footer-inner{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.grid{grid-template-columns:1fr}.footer-inner{grid-template-columns:1fr}.section h2{font-size:30px}}
+</style>
+</head>
+
+<body>
+
+<header class="header">
+<nav class="nav">
+<a class="brand" href="#accueil">UR <span>URBAN RUN</span></a>
+<div class="links">
+<a href="#accueil">Accueil</a>
+<a href="#collections">Collections</a>
+<a href="#chaussures">Chaussures</a>
+<a href="#contact">Contact</a>
+</div>
+<a class="wa" href="https://wa.me/212670080058" target="_blank">WhatsApp</a>
+<button class="menu" id="menuBtn">☰</button>
+</nav>
+<div class="mobile-links" id="mobileLinks">
+<a href="#accueil">Accueil</a>
+<a href="#collections">Collections</a>
+<a href="#chaussures">Chaussures</a>
+<a href="#contact">Contact</a>
+</div>
+</header>
+
+<main id="accueil">
+
+<section id="collections" class="section product-section">
+<div class="eyebrow">URBAN RUN</div>
+<h2>Ensembles Running</h2>
+<div class="section-note">Choisis ta couleur puis ta taille.</div>
+<div class="grid">
 <article class="card" data-card>
-  <div class="photo">
-    <img data-main src="IMG_0540.jpeg" alt="Bas Trail">
-  </div>
-  <div class="info">
-    <div class="name">Bas Trail</div>
-    <div class="price">600 DH</div>
-    <div class="sizes">Tailles : S · M · L · XL · XXL</div>
-    <a class="buy" data-product="Bas Trail" href="#">Commander sur WhatsApp</a>
-  </div>
+<div class="photo"><img data-main src="running-gris 2.jpeg" alt="Ensemble Running"></div>
+<div class="info">
+<div class="name">Ensembles Running</div>
+<div class="price">600 DH</div>
+<div class="choices">
+<button class="choice active" data-img="running-gris 2.jpeg">Gris</button>
+<button class="choice" data-img="running-vert 2.jpeg">Vert</button>
+<button class="choice" data-img="running-bleu 2.jpeg">Bleu</button>
+<button class="choice" data-img="running-corail 2.jpeg">Corail</button>
+<button class="choice" data-img="running-rose 2.jpeg">Rose</button>
+</div>
+<div class="sizes">Tailles : S · M · L · XL · XXL</div>
+<a class="buy" data-product="Ensemble Running" href="#">Commander sur WhatsApp</a>
+</div>
+</article>
+</div>
+</section>
+
+<section class="section product-section">
+<div class="eyebrow">URBAN RUN</div>
+<h2>Ensembles Zabuza</h2>
+<div class="section-note">Choisis ton modèle puis ta taille.</div>
+<div class="grid">
+<article class="card" data-card>
+<div class="photo"><img data-main src="zabuza-noir 2.jpeg" alt="Zabuza Noir"></div>
+<div class="info">
+<div class="name">Ensembles Zabuza</div>
+<div class="price">1000 DH</div>
+<div class="choices">
+<button class="choice active" data-img="zabuza-noir 2.jpeg">Noir</button>
+<button class="choice" data-img="zabuza-bleu 2.jpeg">Bleu foncé</button>
+</div>
+<div class="sizes">Tailles : S · M · L · XL · XXL</div>
+<a class="buy" data-product="Ensemble Zabuza" href="#">Commander sur WhatsApp</a>
+</div>
+</article>
+</div>
+</section>
+
+<section class="section product-section">
+<div class="eyebrow">BAS RUNNING</div>
+<h2>Bas Running</h2>
+<div class="section-note">Chaque modèle est séparé.</div>
+<div class="grid">
+
+<article class="card">
+<div class="photo"><img src="IMG_0540.jpeg" alt="Bas Trail"></div>
+<div class="info">
+<div class="name">Bas Trail</div>
+<div class="price">600 DH</div>
+<div class="sizes">Tailles : S · M · L · XL · XXL</div>
+<a class="buy" data-product="Bas Trail" href="#">Commander sur WhatsApp</a>
+</div>
 </article>
 
-<article class="card" data-card>
-  <div class="photo">
-    <img data-main src="bas-trail 2.jpeg" alt="Phenom Elite">
-  </div>
-  <div class="info">
-    <div class="name">Phenom Elite</div>
-    <div class="price">600 DH</div>
-    <div class="sizes">Tailles : S · M · L · XL · XXL</div>
-    <a class="buy" data-product="Phenom Elite" href="#">Commander sur WhatsApp</a>
-  </div>
+<article class="card">
+<div class="photo"><img src="Nike berlin 2.jpeg" alt="Nike Berlin"></div>
+<div class="info">
+<div class="name">Nike Berlin</div>
+<div class="price">600 DH</div>
+<div class="sizes">Tailles : S · M · L · XL · XXL</div>
+<a class="buy" data-product="Nike Berlin" href="#">Commander sur WhatsApp</a>
+</div>
 </article>
+
+<article class="card">
+<div class="photo"><img src="bas-trail 2.jpeg" alt="Phenom Elite"></div>
+<div class="info">
+<div class="name">Phenom Elite</div>
+<div class="price">600 DH</div>
+<div class="sizes">Tailles : S · M · L · XL · XXL</div>
+<a class="buy" data-product="Phenom Elite" href="#">Commander sur WhatsApp</a>
+</div>
+</article>
+
+<article class="card">
+<div class="photo"><img src="Bas division 2.jpeg" alt="Bas Division"></div>
+<div class="info">
+<div class="name">Bas Division</div>
+<div class="price">600 DH</div>
+<div class="sizes">Tailles : S · M · L · XL · XXL</div>
+<a class="buy" data-product="Bas Division" href="#">Commander sur WhatsApp</a>
+</div>
+</article>
+
+</div>
+</section>
+
+<section class="section product-section">
+<div class="eyebrow">DIVISION</div>
+<h2>Division</h2>
+<div class="section-note">Chaque pièce est séparée.</div>
+<div class="grid">
+
+<article class="card">
+<div class="photo"><img src="division-noir 2.jpeg" alt="Division Noir"></div>
+<div class="info">
+<div class="name">Ensemble Division — Noir</div>
+<div class="price">600 DH</div>
+<div class="sizes">Tailles : S · M · L · XL · XXL</div>
+<a class="buy" data-product="Ensemble Division — Noir" href="#">Commander sur WhatsApp</a>
+</div>
+</article>
+
+<article class="card">
+<div class="photo"><img src="division-vert 2.jpeg" alt="Division Vert"></div>
+<div class="info">
+<div class="name">Ensemble Division — Vert</div>
+<div class="price">600 DH</div>
+<div class="sizes">Tailles : S · M · L · XL · XXL</div>
+<a class="buy" data-product="Ensemble Division — Vert" href="#">Commander sur WhatsApp</a>
+</div>
+</article>
+
+<article class="card">
+<div class="photo"><img src="division-veste 2.jpeg" alt="Veste Division"></div>
+<div class="info">
+<div class="name">Veste Division</div>
+<div class="price">600 DH</div>
+<div class="sizes">Tailles : S · M · L · XL · XXL</div>
+<a class="buy" data-product="Veste Division" href="#">Commander sur WhatsApp</a>
+</div>
+</article>
+
+</div>
+</section>
+
+<section class="section product-section">
+<div class="eyebrow">NIKE MIND</div>
+<h2>Nike Mind</h2>
+<div class="section-note">Tailles : 40 · 41 · 42 · 43 · 44 · 45</div>
+<div class="grid">
+
+<article class="card">
+<div class="photo"><img src="mind-noir 2.jpeg" alt="Nike Mind Noir"></div>
+<div class="info">
+<div class="name">Nike Mind — Noir</div>
+<div class="price">600 DH</div>
+<div class="sizes">Tailles : 40 · 41 · 42 · 43 · 44 · 45</div>
+<a class="buy" data-product="Nike Mind — Noir" href="#">Commander sur WhatsApp</a>
+</div>
+</article>
+
+<article class="card">
+<div class="photo"><img src="mind-blanc 2.jpeg" alt="Nike Mind Blanc"></div>
+<div class="info">
+<div class="name">Nike Mind — Blanc</div>
+<div class="price">600 DH</div>
+<div class="sizes">Tailles : 40 · 41 · 42 · 43 · 44 · 45</div>
+<a class="buy" data-product="Nike Mind — Blanc" href="#">Commander sur WhatsApp</a>
+</div>
+</article>
+
+</div>
+</section>
+
+<section id="chaussures" class="section product-section">
+<div class="eyebrow">SNEAKERS</div>
+<h2>Chaussures</h2>
+<div class="section-note">Tailles : 40 · 41 · 42 · 43 · 44 · 45</div>
+<div class="grid">
+
+<article class="card">
+<div class="photo"><img src="IMG_0570.webp" alt="On Cloud Noir Blanc"></div>
+<div class="info">
+<div class="name">On Cloud — Noir/Blanc</div>
+<div class="price">600 DH</div>
+<div class="sizes">Tailles : 40 · 41 · 42 · 43 · 44 · 45</div>
+<a class="buy" data-product="On Cloud — Noir/Blanc" href="#">Commander sur WhatsApp</a>
+</div>
+</article>
+
+<article class="card">
+<div class="photo"><img src="IMG_0569.jpeg" alt="On Cloud Bleu"></div>
+<div class="info">
+<div class="name">On Cloud — Bleu</div>
+<div class="price">600 DH</div>
+<div class="sizes">Tailles : 40 · 41 · 42 · 43 · 44 · 45</div>
+<a class="buy" data-product="On Cloud — Bleu" href="#">Commander sur WhatsApp</a>
+</div>
+</article>
+
+<article class="card">
+<div class="photo"><img src="IMG_0572.jpeg" alt="Yeezy 700 V3 Noir"></div>
+<div class="info">
+<div class="name">Yeezy 700 V3 — Noir</div>
+<div class="price">600 DH</div>
+<div class="sizes">Tailles : 40 · 41 · 42 · 43 · 44 · 45</div>
+<a class="buy" data-product="Yeezy 700 V3 — Noir" href="#">Commander sur WhatsApp</a>
+</div>
+</article>
+
+</div>
+</section>
+
+<img class="banner" src="banner 2.jpeg" alt="Urban Run">
+
+<div class="features">
+<div class="feature">🚚<b>Livraison rapide</b><span>Partout au Maroc</span></div>
+<div class="feature">🛡️<b>Paiement à la livraison</b><span>Simple et sécurisé</span></div>
+<div class="feature">🎧<b>Service client</b><span>À votre écoute</span></div>
+</div>
+
+<section class="about">
+<div class="section about-inner">
+<div class="eyebrow">NOTRE UNIVERS</div>
+<h2>Run your city.</h2>
+<p>Urban Run rassemble running, sneakers et sportswear dans un univers urbain pensé pour le mouvement. Toutes les commandes se font directement par WhatsApp.</p>
+</div>
+</section>
+
+</main>
+
+<footer id="contact" class="footer">
+<div class="footer-inner">
+<div><h3>URBAN RUN</h3><p>Running / Sneakers / Sportswear<br>Casablanca · Marrakech</p></div>
+<div><h3>Liens</h3><a href="#accueil">Accueil</a><br><a href="#collections">Collections</a><br><a href="#chaussures">Chaussures</a></div>
+<div><h3>Commande</h3><p><a href="https://wa.me/212670080058" target="_blank">WhatsApp<br>0670080058</a></p></div>
+</div>
+<div class="bottom">© 2026 Urban Run — Tous droits réservés.</div>
+</footer>
+
+<script>
+const wa="212670080058";
+
+const menuBtn=document.getElementById("menuBtn");
+const mobileLinks=document.getElementById("mobileLinks");
+
+menuBtn.addEventListener("click",()=>{
+mobileLinks.style.display=mobileLinks.style.display==="block"?"none":"block";
+});
+
+document.querySelectorAll(".choice").forEach(btn=>{
+btn.addEventListener("click",()=>{
+const card=btn.closest(".card");
+card.querySelectorAll(".choice").forEach(x=>x.classList.remove("active"));
+btn.classList.add("active");
+card.querySelector("img").src=btn.dataset.img;
+});
+});
+
+document.querySelectorAll(".buy").forEach(btn=>{
+btn.addEventListener("click",e=>{
+e.preventDefault();
+const product=btn.dataset.product;
+const card=btn.closest(".card");
+const selected=card.querySelector(".choice.active")?.textContent||"";
+const text=`Bonjour Urban Run, je souhaite commander : ${product}${selected?" — Choix : "+selected:""}. Taille : `;
+window.open(`https://wa.me/${wa}?text=${encodeURIComponent(text)}`,"_blank");
+});
+});
+</script>
+
+</body>
+</html>
